@@ -19,3 +19,8 @@ ul {
 a {
   text-decoration: none;
 }
+
+.active {
+  color: #ffd43b;
+  font-weight: bold;
+}

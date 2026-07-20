@@ -1,4 +1,5 @@
 import styles from "./Sidebar.module.css";
+import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   return (
@@ -7,16 +8,44 @@ const Sidebar = () => {
         <h1>Safe Room Records</h1>
         <ul>
           <li>
-            <a href="#">Dashboard</a>
+            <NavLink
+              to="/"
+              className={({ isActive }) => {
+                isActive ? styles.active : "";
+              }}
+            >
+              Dashboard
+            </NavLink>
           </li>
           <li>
-            <a href="#">Library</a>
+            <NavLink
+              to="/library"
+              className={({ isActive }) => {
+                isActive ? styles.active : "";
+              }}
+            >
+              Library
+            </NavLink>
           </li>
           <li>
-            <a href="#">Statistics</a>
+            <NavLink
+              to="/statistics"
+              className={({ isActive }) => {
+                isActive ? styles.active : "";
+              }}
+            >
+              Statistics
+            </NavLink>
           </li>
           <li>
-            <a href="#">Settings</a>
+            <NavLink
+              to="/settings"
+              className={({ isActive }) => {
+                isActive ? styles.active : "";
+              }}
+            >
+              Settings
+            </NavLink>
           </li>
         </ul>
       </nav>
