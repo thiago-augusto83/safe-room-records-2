@@ -1,3 +1,5 @@
+// Settings representa a página de configurações.
+// Atualmente não possui estado nem lógica própria.
 const Settings = () => {
   return (
     <>

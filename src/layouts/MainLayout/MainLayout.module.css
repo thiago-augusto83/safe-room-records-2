@@ -1,8 +1,10 @@
+/* Estrutura principal: Sidebar + conteúdo. */
 .container {
   height: 100vh;
   display: flex;
 }
 
+/* Área onde o Outlet renderiza a página atual. */
 .content {
   flex: 1;
   display: flex;

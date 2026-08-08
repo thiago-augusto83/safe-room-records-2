@@ -1,25 +1,31 @@
+/* Largura e altura da Sidebar. */
 .container {
   width: 250px;
   height: 100vh;
   border-right: solid 1px black;
 }
 
+/* Espaçamento interno da navegação. */
 nav {
   padding: 20px;
 }
 
+/* Título da Sidebar. */
 h1 {
   text-align: center;
 }
 
+/* Remove os marcadores padrão da lista. */
 ul {
   list-style: none;
 }
 
+/* Remove o sublinhado padrão dos links. */
 a {
   text-decoration: none;
 }
 
+/* Estilo que pretendemos aplicar ao link ativo. */
 .active {
   color: #ffd43b;
   font-weight: bold;
